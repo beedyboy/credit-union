@@ -1,11 +1,11 @@
 {
-    "beedybolade@gmail.com": {
+    "southernSweetNicki@yahoo.com": {
         "id": 2,
-        "short_name": "Bryan Wilson",
-        "name": "Tony Bryan Wilson",
-        "email": "beedybolade@gmail.com",
-        "password": "beedy1234",
-        "wallet": "1,036,820.00",
+        "short_name": "Nicole Leshane",
+        "name": "Nicole Rae Leshane ",
+        "email": "southernSweetNicki@yahoo.com",
+        "password": "Nicki030668",
+        "wallet": "12,036,820.00",
         "currency": "fa fa-dollar-sign",
         "tax": "",
         "imt": "",
@@ -13,14 +13,30 @@
         "owner": "on",
         "education": "",
         "location": "Washington, USA",
-        "nok": "Jake Wilson",
+        "nok": "",
         "logo": "",
-        "occupation": "US Army",
+        "occupation": "US Navy",
         "account_type": "Savings",
-        "account_number": "3456787654",
+        "account_number": "*********",
         "settings": {
             "email_notifications": true,
             "push_notifications": false
-        }
+        },
+        "beneficiaries": [
+            {
+                "id": 1,
+                "name": "John Doe",
+                "relationship": "Spouse",
+                "email": "john.doe@example.com",
+                "phone": "123-456-7890"
+            },
+            {
+                "id": 2,
+                "name": "Jane Smith",
+                "relationship": "Child",
+                "email": "jane.smith@example.com",
+                "phone": "987-654-3210"
+            }
+        ]
     }
 }

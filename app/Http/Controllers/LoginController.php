@@ -30,10 +30,10 @@ class LoginController extends Controller
      */
     public function login(Request $request)
     {
-session()->forget('error');
-session()->forget('success');
+        session()->forget('error');
+        session()->forget('success');
 
-        $email = $request->input('email');
+         $email = strtolower($request->input('email'));
   		 $password = $request->input('password'); 
            $users = array();
         //    var_dump($this->_users);

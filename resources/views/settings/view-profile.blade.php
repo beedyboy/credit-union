@@ -23,7 +23,14 @@
                     <div class="col-md-6">
                         <p class="font-weight-bold">Next of Kin:</p>
                         <p>{{ $user['nok'] }}</p>
-                        <!-- Add more profile information here -->
+                        @if(isset($user['beneficiaries']) && count($user['beneficiaries']) > 0)
+                            <p class="font-weight-bold">Beneficiaries:</p>
+                            <ul>
+                                @foreach($user['beneficiaries'] as $beneficiary)
+                                    <li>{{ $beneficiary['name'] }}</li>
+                                @endforeach
+                            </ul>
+                        @endif
                     </div>
                 </div>
             </div>

@@ -1,85 +1,74 @@
 [
     {
         "id": 1,
-        "date": "2024-04-01",
-        "description": "Naval Supplies - Purchase of Equipment",
-        "amount": -500,
+        "date": "2023-01-15",
+        "description": "Procurement of Ammunition",
+        "amount": -250000,
         "type": "purchase",
         "status": "completed"
     },
     {
         "id": 2,
-        "date": "2024-04-02",
-        "description": "Naval Base Housing - Rent Payment",
-        "amount": -1000,
-        "type": "payment",
+        "date": "2023-02-28",
+        "description": "Military Equipment Maintenance",
+        "amount": -500000,
+        "type": "maintenance",
         "status": "completed"
     },
     {
         "id": 3,
-        "date": "2024-04-03",
-        "description": "Naval Commissary - Grocery Purchase",
-        "amount": -150,
-        "type": "purchase",
+        "date": "2023-04-10",
+        "description": "Vehicle Fuel and Maintenance",
+        "amount": -75000,
+        "type": "maintenance",
         "status": "completed"
     },
     {
         "id": 4,
-        "date": "2024-04-04",
-        "description": "Navy Federal Credit Union - Transfer to Savings Account",
-        "amount": -200,
-        "type": "transfer",
+        "date": "2023-05-20",
+        "description": "Salaries for Troops",
+        "amount": -1000000,
+        "type": "payment",
         "status": "completed"
     },
     {
         "id": 5,
-        "date": "2024-04-05",
-        "description": "Naval Exchange - Clothing Purchase",
-        "amount": -50,
+        "date": "2023-06-05",
+        "description": "Supply Chain Logistics",
+        "amount": -300000,
         "type": "purchase",
         "status": "completed"
     },
     {
         "id": 6,
-        "description": "WIRE TRANSFER",
-        "ref": "TwD9fHZYLi-Apr-2024",
-        "date": "08-04-2024 05:42",
-        "amount": "1,200.00 USD",
-        "status": "pending"
+        "date": "2023-08-15",
+        "description": "Infrastructure Construction",
+        "amount": -1500000,
+        "type": "construction",
+        "status": "completed"
     },
     {
-        "description": "WIRE TRANSFER",
-        "ref": "BFZCbTZBhH-Apr-2024",
-        "date": "08-04-2024 08:23",
-        "amount": "2,700,000.00 USD",
-        "status": "pending"
+        "id": 7,
+        "date": "2023-10-30",
+        "description": "Military Training Program",
+        "amount": -500000,
+        "type": "training",
+        "status": "completed"
     },
     {
-        "description": "WIRE TRANSFER",
-        "ref": "UNefB18F9j-Apr-2024",
-        "date": "08-04-2024 08:23",
-        "amount": "2,700,000.00 USD",
-        "status": "pending"
+        "id": 8,
+        "date": "2023-12-10",
+        "description": "Healthcare Services for Personnel",
+        "amount": -200000,
+        "type": "service",
+        "status": "completed"
     },
     {
-        "description": "WIRE TRANSFER",
-        "ref": "WfjcoU3Pth-Apr-2024",
-        "date": "08-04-2024 08:24",
-        "amount": "12,355.00 USD",
-        "status": "pending"
-    },
-    {
-        "description": "WIRE TRANSFER",
-        "ref": "BOCfsB8NAw-Apr-2024",
-        "date": "08-04-2024 08:32",
-        "amount": "200.00 USD",
-        "status": "pending"
-    },
-    {
-        "description": "WIRE TRANSFER",
-        "ref": "J2dAvR3kmn-Apr-2024",
-        "date": "08-04-2024 09:26",
-        "amount": "0.00 USD",
-        "status": "pending"
+        "id": 9,
+        "date": "2024-01-10",
+        "description": "Care Package Delivery",
+        "amount": -12000,
+        "type": "care",
+        "status": "completed"
     }
 ]
