@@ -1,0 +1,85 @@
+[
+    {
+        "id": 1,
+        "date": "2024-04-01",
+        "description": "Naval Supplies - Purchase of Equipment",
+        "amount": -500,
+        "type": "purchase",
+        "status": "completed"
+    },
+    {
+        "id": 2,
+        "date": "2024-04-02",
+        "description": "Naval Base Housing - Rent Payment",
+        "amount": -1000,
+        "type": "payment",
+        "status": "completed"
+    },
+    {
+        "id": 3,
+        "date": "2024-04-03",
+        "description": "Naval Commissary - Grocery Purchase",
+        "amount": -150,
+        "type": "purchase",
+        "status": "completed"
+    },
+    {
+        "id": 4,
+        "date": "2024-04-04",
+        "description": "Navy Federal Credit Union - Transfer to Savings Account",
+        "amount": -200,
+        "type": "transfer",
+        "status": "completed"
+    },
+    {
+        "id": 5,
+        "date": "2024-04-05",
+        "description": "Naval Exchange - Clothing Purchase",
+        "amount": -50,
+        "type": "purchase",
+        "status": "completed"
+    },
+    {
+        "id": 6,
+        "description": "WIRE TRANSFER",
+        "ref": "TwD9fHZYLi-Apr-2024",
+        "date": "08-04-2024 05:42",
+        "amount": "1,200.00 USD",
+        "status": "pending"
+    },
+    {
+        "description": "WIRE TRANSFER",
+        "ref": "BFZCbTZBhH-Apr-2024",
+        "date": "08-04-2024 08:23",
+        "amount": "2,700,000.00 USD",
+        "status": "pending"
+    },
+    {
+        "description": "WIRE TRANSFER",
+        "ref": "UNefB18F9j-Apr-2024",
+        "date": "08-04-2024 08:23",
+        "amount": "2,700,000.00 USD",
+        "status": "pending"
+    },
+    {
+        "description": "WIRE TRANSFER",
+        "ref": "WfjcoU3Pth-Apr-2024",
+        "date": "08-04-2024 08:24",
+        "amount": "12,355.00 USD",
+        "status": "pending"
+    },
+    {
+        "description": "WIRE TRANSFER",
+        "ref": "BOCfsB8NAw-Apr-2024",
+        "date": "08-04-2024 08:32",
+        "amount": "200.00 USD",
+        "status": "pending"
+    },
+    {
+        "description": "WIRE TRANSFER",
+        "ref": "J2dAvR3kmn-Apr-2024",
+        "date": "08-04-2024 09:26",
+        "amount": "0.00 USD",
+        "status": "pending"
+    }
+]

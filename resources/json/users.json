@@ -1,0 +1,26 @@
+{
+    "beedybolade@gmail.com": {
+        "id": 2,
+        "short_name": "Bryan Wilson",
+        "name": "Tony Bryan Wilson",
+        "email": "beedybolade@gmail.com",
+        "password": "beedy1234",
+        "wallet": "1,036,820.00",
+        "currency": "fa fa-dollar-sign",
+        "tax": "",
+        "imt": "",
+        "atcc": "",
+        "owner": "on",
+        "education": "",
+        "location": "Washington, USA",
+        "nok": "Jake Wilson",
+        "logo": "",
+        "occupation": "US Army",
+        "account_type": "Savings",
+        "account_number": "3456787654",
+        "settings": {
+            "email_notifications": true,
+            "push_notifications": false
+        }
+    }
+}
