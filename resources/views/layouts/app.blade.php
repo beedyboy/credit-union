@@ -57,7 +57,7 @@
 
         <footer class="main-footer">
       <center><strong>Copyright &copy; 1996-2024 <a href="#">Navy Federal Credit Union</a>.</strong></center>
-      All rights reserved.
+      <center>All rights reserved.</center>
     </footer>
 
       </div>
