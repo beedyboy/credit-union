@@ -14,7 +14,7 @@
         </div>
         <div class="card-body">
           <p>Account Number: {{ $user['account_number'] }}</p>
-          <p>Balance: ${{ formatMoney($user['wallet'], true) }}</p>
+          <p>Balance: ${{ formatMoney(removeComma($user['wallet']), true) }}</p>
         </div>
       </div>
     </div>
@@ -34,7 +34,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card mt-4">
     <div class="card-header">
       Recent Transactions
     </div>

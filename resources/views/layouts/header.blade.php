@@ -9,9 +9,9 @@
         <li class="nav-item d-none d-xl-flex">
           <a href="{{ url('account/dashboard') }}" class="nav-link">Account</a>
         </li>
-        <li class="nav-item d-none d-md-flex">
+        <!-- <li class="nav-item d-none d-md-flex">
           <a href="{{ url('account/dashboard') }}" class="nav-link">Dashboard</a>
-        </li>
+        </li> -->
         <li class="nav-item d-none d-md-flex">
           <a href="{{ url('account/transfer') }}" class="nav-link">Transfers</a>
         </li>
