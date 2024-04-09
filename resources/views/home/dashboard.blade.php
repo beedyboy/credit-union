@@ -4,7 +4,8 @@
 
 @section('content')
 <div class="container">
-  <h1>Welcome, {{ $user['name'] }}</h1>
+  <h1>Welcome, {{ explode(' ', $user['name'])[0] }}</h1>
+
 
   <div class="row">
     <div class="col-md-6">
