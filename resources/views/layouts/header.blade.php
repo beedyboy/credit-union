@@ -7,13 +7,13 @@
     <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item d-none d-xl-flex">
-          <a href="{{ url('account/dashboard') }}" class="nav-link">Account</a>
+          <a href="{{ url('account/dashboard') }}" class="nav-link">Account details</a>
         </li>
         <!-- <li class="nav-item d-none d-md-flex">
           <a href="{{ url('account/dashboard') }}" class="nav-link">Dashboard</a>
         </li> -->
         <li class="nav-item d-none d-md-flex">
-          <a href="{{ url('account/transfer') }}" class="nav-link">Transfers</a>
+          <a href="{{ url('account/transfer') }}" class="nav-link">Transfer</a>
         </li>
         <li class="nav-item dropdown d-none d-lg-flex">
           <a class="nav-link dropdown-toggle" id="quickDropdown" href="#" role="button" data-toggle="dropdown" aria-expanded="false">More</a>
