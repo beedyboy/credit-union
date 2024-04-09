@@ -6,16 +6,25 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item d-none d-xl-flex">
+        <li class="nav-item d-none d-sm-flex">
           <a href="{{ url('account/dashboard') }}" class="nav-link">Account details</a>
         </li>
-        <!-- <li class="nav-item d-none d-md-flex">
-          <a href="{{ url('account/dashboard') }}" class="nav-link">Dashboard</a>
-        </li> -->
-        <li class="nav-item d-none d-md-flex">
+        <li class="nav-item d-none d-sm-flex">
           <a href="{{ url('account/transfer') }}" class="nav-link">Transfer</a>
         </li>
-        <li class="nav-item dropdown d-none d-lg-flex">
+        <li class="nav-item d-lg-none">
+          <a href="{{ url('account/dashboard') }}" class="nav-link">Account</a>
+        </li>
+        <li class="nav-item d-lg-none">
+          <a href="{{ url('account/transfer') }}" class="nav-link">Transfer</a>
+        </li>
+        <li class="nav-item d-lg-none">
+          <a href="#" class="nav-link">BPay</a>
+        </li>
+        <li class="nav-item d-lg-none">
+          <a href="#" class="nav-link">Mobile deposit</a>
+        </li>
+        <li class="nav-item dropdown d-none d-sm-none d-lg-flex">
           <a class="nav-link dropdown-toggle" id="quickDropdown" href="#" role="button" data-toggle="dropdown" aria-expanded="false">More</a>
           <div class="dropdown-menu dropdown-menu-right navbar-dropdown pt-3" aria-labelledby="quickDropdown">
             <a href="{{ url('loans') }}" class="dropdown-item">Loans</a>
@@ -24,35 +33,42 @@
           </div>
         </li>
       </ul>
-
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown d-xl-inline-block">
-          <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-            <span class="profile-text d-md-inline-flex">{{ $user['name'] }}</span>
-            <img class="img-xs rounded-circle" src="{{ !empty($user['logo']) ? asset('dist/img/'.$user['logo']) : url('assets/images/faces-clipart/pic-1.png') }}" alt="Profile image">
-            <!-- <img class="img-xs rounded-circle" src="{{ url('assets/images/faces/face8.jpg') }}" alt="Profile image"> -->
-          </a>
-          <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
-            <div class="d-flex border-bottom w-100 justify-content-center">
-              <div class="py-3 px-4 d-flex align-items-center justify-content-center">
-                <a class="dropdown-item p-0" href="{{ url('settings') }}">
-                  <i class="mdi mdi-settings-outline mr-0 text-gray"></i>
-                </a>
-              </div>
-              <div class="py-3 px-4 d-flex align-items-center justify-content-center border-left border-right">
-                <a class="dropdown-item p-0" href="{{ url('settings/notifications') }}"> <i class="mdi mdi-bell-outline mr-0 text-gray"></i>
-                </a>
-              </div>
-              <div class="py-3 px-4 d-flex align-items-center justify-content-center">
-
-                <a class="dropdown-item p-0" href="{{ url('auth') }}"> <i class="mdi mdi-logout mr-0 text-gray"></i>
-                </a>
-              </div>
-            </div>
-            <a class="dropdown-item" href="{{ url('/auth') }}" style="color: #000000;">Sign Out</a>
-          </div>
-        </li>
-      </ul>
     </div>
   </div>
+
+  <div class="ml-auto">
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown d-xl-inline-block">
+        <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+          <!-- <span class="profile-text d-md-inline-flex d-lg-none">{{ $user['short_name'] }}</span> -->
+          <span class="profile-text d-none d-lg-inline-flex">{{ $user['short_name'] }}</span>
+          <img class="img-xs rounded-circle" src="{{ !empty($user['logo']) ? asset('dist/img/'.$user['logo']) : url('assets/images/faces-clipart/pic-1.png') }}" alt="Profile image">
+        </a>
+        <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+          <div class="dropdown-item py-2">
+            <span class="profile-text">{{ $user['name'] }}</span>
+          </div>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{{ url('settings') }}">
+            <i class="mdi mdi-settings-outline mr-2"></i>Settings
+          </a>
+          <a class="dropdown-item" href="{{ url('settings/notifications') }}">
+            <i class="mdi mdi-bell-outline mr-2"></i>Notifications
+          </a>
+          <a class="dropdown-item" href="{{ url('auth') }}">
+            <i class="mdi mdi-logout mr-2"></i>Sign Out
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
 </nav>
+
+<div class="offcanvas offcanvas-left" id="mobileDrawer" tabindex="-1">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title">Menu</h5>
+    <button type="button" class="close" data-toggle="offcanvas" data-target="#mobileDrawer" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+</div>
